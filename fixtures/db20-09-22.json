@@ -1,0 +1,3923 @@
+[
+{
+    "model": "account.primarygroup",
+    "pk": 1,
+    "fields": {
+        "name": "Assets",
+        "is_deletable": false,
+        "created_at": "2021-12-13T05:19:44.616Z",
+        "updated_at": "2021-12-13T05:19:44.616Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.primarygroup",
+    "pk": 2,
+    "fields": {
+        "name": "Liabilities",
+        "is_deletable": false,
+        "created_at": "2021-12-13T05:19:44.620Z",
+        "updated_at": "2021-12-13T05:19:44.620Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.primarygroup",
+    "pk": 3,
+    "fields": {
+        "name": "Expenses",
+        "is_deletable": false,
+        "created_at": "2021-12-13T05:19:44.620Z",
+        "updated_at": "2021-12-13T05:19:44.620Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.primarygroup",
+    "pk": 4,
+    "fields": {
+        "name": "Incomes",
+        "is_deletable": false,
+        "created_at": "2021-12-13T05:19:44.621Z",
+        "updated_at": "2021-12-13T05:19:44.621Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 1,
+    "fields": {
+        "name": "Current Assets",
+        "head_group": null,
+        "head_primarygroup": 1,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.622Z",
+        "updated_at": "2021-12-13T05:19:44.622Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 2,
+    "fields": {
+        "name": "Fixed Assets",
+        "head_group": null,
+        "head_primarygroup": 1,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.626Z",
+        "updated_at": "2021-12-13T05:19:44.626Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 3,
+    "fields": {
+        "name": "Investments",
+        "head_group": null,
+        "head_primarygroup": 1,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.626Z",
+        "updated_at": "2021-12-13T05:19:44.626Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 4,
+    "fields": {
+        "name": "Misc. Expenses (ASSETS)",
+        "head_group": null,
+        "head_primarygroup": 1,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.627Z",
+        "updated_at": "2021-12-13T05:19:44.627Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 5,
+    "fields": {
+        "name": "Bank Accounts",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.628Z",
+        "updated_at": "2021-12-13T05:19:44.628Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 6,
+    "fields": {
+        "name": "Cash-in-Hand",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.628Z",
+        "updated_at": "2021-12-13T05:19:44.628Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 7,
+    "fields": {
+        "name": "Deposits (Asssets)",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.629Z",
+        "updated_at": "2021-12-13T05:19:44.629Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 8,
+    "fields": {
+        "name": "Loans and Advances (Assets)",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.629Z",
+        "updated_at": "2021-12-13T05:19:44.629Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 9,
+    "fields": {
+        "name": "Stock-in-Hand",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.630Z",
+        "updated_at": "2021-12-13T05:19:44.630Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 10,
+    "fields": {
+        "name": "Sundry Debtors",
+        "head_group": 1,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.630Z",
+        "updated_at": "2021-12-13T05:19:44.631Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 11,
+    "fields": {
+        "name": "Branch / Divisions",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.637Z",
+        "updated_at": "2021-12-13T05:19:44.637Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 12,
+    "fields": {
+        "name": "Capital Account",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.637Z",
+        "updated_at": "2021-12-13T05:19:44.637Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 13,
+    "fields": {
+        "name": "Current Liabilities",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.638Z",
+        "updated_at": "2021-12-13T05:19:44.638Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 14,
+    "fields": {
+        "name": "Salary",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.639Z",
+        "updated_at": "2021-12-13T05:19:44.639Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 15,
+    "fields": {
+        "name": "Investment",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.639Z",
+        "updated_at": "2021-12-13T05:19:44.639Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 16,
+    "fields": {
+        "name": "Loans (Liability)",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.640Z",
+        "updated_at": "2021-12-13T05:19:44.640Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 17,
+    "fields": {
+        "name": "Suspense A/c",
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.641Z",
+        "updated_at": "2021-12-13T05:19:44.641Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 18,
+    "fields": {
+        "name": "Reserves & Surplus",
+        "head_group": 12,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.642Z",
+        "updated_at": "2021-12-13T05:19:44.642Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 19,
+    "fields": {
+        "name": "Duties & Taxes",
+        "head_group": 13,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.642Z",
+        "updated_at": "2021-12-13T05:19:44.642Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 20,
+    "fields": {
+        "name": "Provisions",
+        "head_group": 13,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.643Z",
+        "updated_at": "2021-12-13T05:19:44.643Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 21,
+    "fields": {
+        "name": "Sundry Creditors",
+        "head_group": 13,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.644Z",
+        "updated_at": "2021-12-13T05:19:44.644Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 22,
+    "fields": {
+        "name": "Bank OD A/c",
+        "head_group": 16,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.645Z",
+        "updated_at": "2021-12-13T05:19:44.645Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 23,
+    "fields": {
+        "name": "Secured Loans",
+        "head_group": 16,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.646Z",
+        "updated_at": "2021-12-13T05:19:44.646Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 24,
+    "fields": {
+        "name": "Unsecured Loans",
+        "head_group": 16,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.646Z",
+        "updated_at": "2021-12-13T05:19:44.646Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 25,
+    "fields": {
+        "name": "Direct Expenses",
+        "head_group": null,
+        "head_primarygroup": 3,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.647Z",
+        "updated_at": "2021-12-13T05:19:44.647Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 26,
+    "fields": {
+        "name": "Indirect Expenses",
+        "head_group": null,
+        "head_primarygroup": 3,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.647Z",
+        "updated_at": "2021-12-13T05:19:44.647Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 27,
+    "fields": {
+        "name": "Purchase Accounts",
+        "head_group": null,
+        "head_primarygroup": 3,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.648Z",
+        "updated_at": "2021-12-13T05:19:44.648Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 28,
+    "fields": {
+        "name": "Direct Incomes",
+        "head_group": null,
+        "head_primarygroup": 4,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.649Z",
+        "updated_at": "2021-12-13T05:19:44.649Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 29,
+    "fields": {
+        "name": "Indirect Incomes",
+        "head_group": null,
+        "head_primarygroup": 4,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.650Z",
+        "updated_at": "2021-12-13T05:19:44.650Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 30,
+    "fields": {
+        "name": "Sales Accounts",
+        "head_group": null,
+        "head_primarygroup": 4,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.651Z",
+        "updated_at": "2021-12-13T05:19:44.651Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 31,
+    "fields": {
+        "name": "Customers",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2022-01-03T09:39:19.054Z",
+        "updated_at": "2022-01-03T09:39:19.054Z",
+        "created_by": 1,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.group",
+    "pk": 32,
+    "fields": {
+        "name": "Gold Customer",
+        "head_group": 31,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2022-06-19T11:39:54.390Z",
+        "updated_at": "2022-06-19T11:39:54.397Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "account.group",
+    "pk": 33,
+    "fields": {
+        "name": "Mini Gold Customer",
+        "head_group": 32,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2022-06-19T11:40:33.522Z",
+        "updated_at": "2022-06-19T11:40:33.525Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "account.group",
+    "pk": 34,
+    "fields": {
+        "name": "Paid",
+        "head_group": 31,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2022-06-19T11:59:59.398Z",
+        "updated_at": "2022-06-19T11:59:59.402Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "account.group",
+    "pk": 35,
+    "fields": {
+        "name": "Delivered",
+        "head_group": 32,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_primary": false,
+        "is_default": false,
+        "created_at": "2022-06-20T07:55:54.148Z",
+        "updated_at": "2022-06-20T07:55:54.153Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 1,
+    "fields": {
+        "name": "Bank",
+        "ledger_type": null,
+        "reference_id": null,
+        "head_group": 5,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.631Z",
+        "updated_at": "2021-12-13T05:19:44.631Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 2,
+    "fields": {
+        "name": "Cash",
+        "ledger_type": null,
+        "reference_id": null,
+        "head_group": 6,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.636Z",
+        "updated_at": "2021-12-13T05:19:44.636Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 3,
+    "fields": {
+        "name": "Profit & Loss A/C",
+        "ledger_type": null,
+        "reference_id": null,
+        "head_group": null,
+        "head_primarygroup": 2,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.641Z",
+        "updated_at": "2021-12-13T06:24:02.135Z",
+        "created_by": null,
+        "updated_by": 1
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 4,
+    "fields": {
+        "name": "Company Purchase",
+        "ledger_type": "Company Purchase",
+        "reference_id": null,
+        "head_group": 27,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.648Z",
+        "updated_at": "2021-12-13T06:36:34.022Z",
+        "created_by": null,
+        "updated_by": 1
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 5,
+    "fields": {
+        "name": "Company Sales",
+        "ledger_type": "Company Sales",
+        "reference_id": null,
+        "head_group": 30,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.652Z",
+        "updated_at": "2021-12-13T05:19:44.652Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 6,
+    "fields": {
+        "name": "Opening Balance Of Customer",
+        "ledger_type": "Opening Balance Of Customer",
+        "reference_id": null,
+        "head_group": 31,
+        "head_primarygroup": null,
+        "is_deletable": false,
+        "is_default": false,
+        "created_at": "2021-12-13T05:19:44.652Z",
+        "updated_at": "2021-12-13T05:19:44.652Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 7,
+    "fields": {
+        "name": "Cause4",
+        "ledger_type": "cause_ledger",
+        "reference_id": "4",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-03-24T06:19:29.006Z",
+        "updated_at": "2022-03-24T06:19:29.006Z",
+        "created_by": 1,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 8,
+    "fields": {
+        "name": "Morsalin0000",
+        "ledger_type": "member_ledger",
+        "reference_id": "4",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-16T07:09:55.804Z",
+        "updated_at": "2022-06-16T07:09:55.804Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 9,
+    "fields": {
+        "name": "A",
+        "ledger_type": "member_ledger",
+        "reference_id": "5",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-16T07:23:39.889Z",
+        "updated_at": "2022-06-16T07:23:39.889Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 10,
+    "fields": {
+        "name": "Sdfsdfsdf",
+        "ledger_type": "member_ledger",
+        "reference_id": "6",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-22T10:40:50.284Z",
+        "updated_at": "2022-06-22T10:40:50.284Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 11,
+    "fields": {
+        "name": "Morsalin",
+        "ledger_type": "user_ledger",
+        "reference_id": "7",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-28T12:50:30.903Z",
+        "updated_at": "2022-06-28T12:50:30.903Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 12,
+    "fields": {
+        "name": "Cause5",
+        "ledger_type": "cause_ledger",
+        "reference_id": "5",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-29T07:28:08.776Z",
+        "updated_at": "2022-06-29T07:28:08.776Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 13,
+    "fields": {
+        "name": "Cause5",
+        "ledger_type": "cause_ledger",
+        "reference_id": "6",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-29T07:29:47.220Z",
+        "updated_at": "2022-06-29T07:29:47.220Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 14,
+    "fields": {
+        "name": "Cause5",
+        "ledger_type": "cause_ledger",
+        "reference_id": "7",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-29T07:33:31.163Z",
+        "updated_at": "2022-06-29T07:33:31.163Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 15,
+    "fields": {
+        "name": "Cause5",
+        "ledger_type": "cause_ledger",
+        "reference_id": "8",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-29T07:34:46.703Z",
+        "updated_at": "2022-06-29T07:34:46.703Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 16,
+    "fields": {
+        "name": "Cause5",
+        "ledger_type": "cause_ledger",
+        "reference_id": "9",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-06-29T07:37:28.958Z",
+        "updated_at": "2022-06-29T07:37:28.958Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 17,
+    "fields": {
+        "name": "Morsalin",
+        "ledger_type": "user_ledger",
+        "reference_id": "11",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-07-07T13:46:11.484Z",
+        "updated_at": "2022-07-07T13:46:11.484Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 18,
+    "fields": {
+        "name": "Cause9",
+        "ledger_type": "cause_ledger",
+        "reference_id": "10",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-07-16T06:34:43.616Z",
+        "updated_at": "2022-07-16T06:34:43.616Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 19,
+    "fields": {
+        "name": "Babulewu",
+        "ledger_type": "member_ledger",
+        "reference_id": "12",
+        "head_group": 21,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-07-16T11:07:31.623Z",
+        "updated_at": "2022-07-16T11:07:31.623Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 20,
+    "fields": {
+        "name": "Child_Food_Operation",
+        "ledger_type": "cause_ledger",
+        "reference_id": "11",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-07-16T11:11:25.418Z",
+        "updated_at": "2022-07-16T11:11:25.418Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.ledgeraccount",
+    "pk": 21,
+    "fields": {
+        "name": "Shashor Babir Madhu",
+        "ledger_type": "cause_ledger",
+        "reference_id": "12",
+        "head_group": 10,
+        "head_primarygroup": null,
+        "is_deletable": true,
+        "is_default": false,
+        "created_at": "2022-07-16T12:38:57.825Z",
+        "updated_at": "2022-07-16T12:38:57.825Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.subledgeraccount",
+    "pk": 1,
+    "fields": {
+        "name": "cause",
+        "created_at": "2022-06-29T07:28:08.797Z",
+        "updated_at": "2022-06-29T07:28:08.797Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 1,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628001",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:22:51.701Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:22:51.722Z",
+        "updated_at": "2022-06-28T12:22:51.722Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 2,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628002",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:23:46.676Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:23:46.683Z",
+        "updated_at": "2022-06-28T12:23:46.683Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 3,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628003",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:24:44.368Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:24:44.374Z",
+        "updated_at": "2022-06-28T12:24:44.374Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 4,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628004",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:25:09.161Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:25:09.168Z",
+        "updated_at": "2022-06-28T12:25:09.168Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 6,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628005",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:27:12.987Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:27:12.993Z",
+        "updated_at": "2022-06-28T12:27:12.993Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 8,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628006",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:29:07.709Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:29:07.717Z",
+        "updated_at": "2022-06-28T12:29:07.717Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 10,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628007",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:33:16.140Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:33:16.146Z",
+        "updated_at": "2022-06-28T12:33:16.146Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 12,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628008",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:40:47.095Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:40:47.101Z",
+        "updated_at": "2022-06-28T12:40:47.101Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 14,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628009",
+        "ref_invoice_no": null,
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-06-28T12:50:30.919Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:50:30.924Z",
+        "updated_at": "2022-06-28T12:50:30.924Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 15,
+    "fields": {
+        "ledger": 11,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220628009",
+        "ref_invoice_no": null,
+        "debit_amount": "0.00",
+        "credit_amount": "1500.00",
+        "receipt_date": "2022-06-28T12:50:30.919Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-28T12:50:30.931Z",
+        "updated_at": "2022-06-28T12:50:30.931Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 16,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220707001",
+        "ref_invoice_no": null,
+        "debit_amount": "5000.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-07-07T12:40:47.277Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-07T12:40:47.284Z",
+        "updated_at": "2022-07-07T12:40:47.284Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 17,
+    "fields": {
+        "ledger": 15,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220707001",
+        "ref_invoice_no": null,
+        "debit_amount": "0.00",
+        "credit_amount": "5000.00",
+        "receipt_date": "2022-07-07T12:40:47.277Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-07T12:40:47.295Z",
+        "updated_at": "2022-07-07T12:40:47.295Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 18,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220707002",
+        "ref_invoice_no": null,
+        "debit_amount": "5000.00",
+        "credit_amount": "0.00",
+        "receipt_date": "2022-07-07T13:46:11.489Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-07T13:46:11.493Z",
+        "updated_at": "2022-07-07T13:46:11.493Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.receiptvoucher",
+    "pk": 19,
+    "fields": {
+        "ledger": 17,
+        "sub_ledger": null,
+        "branch": null,
+        "invoice_no": "RV20220707002",
+        "ref_invoice_no": null,
+        "debit_amount": "0.00",
+        "credit_amount": "5000.00",
+        "receipt_date": "2022-07-07T13:46:11.489Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-07T13:46:11.499Z",
+        "updated_at": "2022-07-07T13:46:11.499Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 1,
+    "fields": {
+        "ledger": 16,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220629005",
+        "debit_amount": "2000.00",
+        "credit_amount": "0.00",
+        "npcheck": false,
+        "sales_date": "2022-06-29T07:37:28.850Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-29T07:37:28.971Z",
+        "updated_at": "2022-06-29T07:37:28.971Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 2,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220629005",
+        "debit_amount": "0.00",
+        "credit_amount": "2000.00",
+        "npcheck": false,
+        "sales_date": "2022-06-29T07:37:28.850Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-06-29T07:37:28.979Z",
+        "updated_at": "2022-06-29T07:37:28.979Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 3,
+    "fields": {
+        "ledger": 18,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716001",
+        "debit_amount": "15000.00",
+        "credit_amount": "0.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T06:34:43.587Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T06:34:43.644Z",
+        "updated_at": "2022-07-16T06:34:43.644Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 4,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716001",
+        "debit_amount": "0.00",
+        "credit_amount": "15000.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T06:34:43.587Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T06:34:43.659Z",
+        "updated_at": "2022-07-16T06:34:43.659Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 5,
+    "fields": {
+        "ledger": 20,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716002",
+        "debit_amount": "250000.00",
+        "credit_amount": "0.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T11:11:25.405Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T11:11:25.429Z",
+        "updated_at": "2022-07-16T11:11:25.429Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 6,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716002",
+        "debit_amount": "0.00",
+        "credit_amount": "250000.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T11:11:25.405Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T11:11:25.435Z",
+        "updated_at": "2022-07-16T11:11:25.435Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 7,
+    "fields": {
+        "ledger": 21,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716003",
+        "debit_amount": "15000.00",
+        "credit_amount": "0.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T12:38:57.811Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T12:38:57.837Z",
+        "updated_at": "2022-07-16T12:38:57.837Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.sales",
+    "pk": 8,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "invoice_no": "PV20220716003",
+        "debit_amount": "0.00",
+        "credit_amount": "15000.00",
+        "npcheck": false,
+        "sales_date": "2022-07-16T12:38:57.811Z",
+        "file": "",
+        "details": null,
+        "created_at": "2022-07-16T12:38:57.843Z",
+        "updated_at": "2022-07-16T12:38:57.843Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 1,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220628009",
+        "log_type": "receipt_voucher",
+        "debit_amount": "1500.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-06-28T12:50:30.919Z",
+        "details": null,
+        "created_at": "2022-06-28T12:50:30.933Z",
+        "updated_at": "2022-06-28T12:50:30.933Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 2,
+    "fields": {
+        "ledger": 11,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220628009",
+        "log_type": "receipt_voucher",
+        "debit_amount": "0.00",
+        "credit_amount": "1500.00",
+        "log_date": "2022-06-28T12:50:30.919Z",
+        "details": null,
+        "created_at": "2022-06-28T12:50:30.943Z",
+        "updated_at": "2022-06-28T12:50:30.943Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 3,
+    "fields": {
+        "ledger": 16,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220629005",
+        "log_type": "sales",
+        "debit_amount": "2000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-06-29T07:37:28.850Z",
+        "details": null,
+        "created_at": "2022-06-29T07:37:28.982Z",
+        "updated_at": "2022-06-29T07:37:28.982Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 4,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220629005",
+        "log_type": "sales",
+        "debit_amount": "0.00",
+        "credit_amount": "2000.00",
+        "log_date": "2022-06-29T07:37:28.850Z",
+        "details": null,
+        "created_at": "2022-06-29T07:37:28.993Z",
+        "updated_at": "2022-06-29T07:37:28.993Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 5,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220707001",
+        "log_type": "receipt_voucher",
+        "debit_amount": "5000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-07-07T12:40:47.277Z",
+        "details": null,
+        "created_at": "2022-07-07T12:40:47.297Z",
+        "updated_at": "2022-07-07T12:40:47.297Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 6,
+    "fields": {
+        "ledger": 15,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220707001",
+        "log_type": "receipt_voucher",
+        "debit_amount": "0.00",
+        "credit_amount": "5000.00",
+        "log_date": "2022-07-07T12:40:47.277Z",
+        "details": null,
+        "created_at": "2022-07-07T12:40:47.307Z",
+        "updated_at": "2022-07-07T12:40:47.307Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 7,
+    "fields": {
+        "ledger": 2,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220707002",
+        "log_type": "receipt_voucher",
+        "debit_amount": "5000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-07-07T13:46:11.489Z",
+        "details": null,
+        "created_at": "2022-07-07T13:46:11.501Z",
+        "updated_at": "2022-07-07T13:46:11.501Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 8,
+    "fields": {
+        "ledger": 17,
+        "sub_ledger": null,
+        "branch": null,
+        "reference_no": "RV20220707002",
+        "log_type": "receipt_voucher",
+        "debit_amount": "0.00",
+        "credit_amount": "5000.00",
+        "log_date": "2022-07-07T13:46:11.489Z",
+        "details": null,
+        "created_at": "2022-07-07T13:46:11.506Z",
+        "updated_at": "2022-07-07T13:46:11.506Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 9,
+    "fields": {
+        "ledger": 18,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716001",
+        "log_type": "sales",
+        "debit_amount": "15000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-07-16T06:34:43.587Z",
+        "details": null,
+        "created_at": "2022-07-16T06:34:43.661Z",
+        "updated_at": "2022-07-16T06:34:43.661Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 10,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716001",
+        "log_type": "sales",
+        "debit_amount": "0.00",
+        "credit_amount": "15000.00",
+        "log_date": "2022-07-16T06:34:43.587Z",
+        "details": null,
+        "created_at": "2022-07-16T06:34:43.673Z",
+        "updated_at": "2022-07-16T06:34:43.673Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 11,
+    "fields": {
+        "ledger": 20,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716002",
+        "log_type": "sales",
+        "debit_amount": "250000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-07-16T11:11:25.405Z",
+        "details": null,
+        "created_at": "2022-07-16T11:11:25.438Z",
+        "updated_at": "2022-07-16T11:11:25.438Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 12,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716002",
+        "log_type": "sales",
+        "debit_amount": "0.00",
+        "credit_amount": "250000.00",
+        "log_date": "2022-07-16T11:11:25.405Z",
+        "details": null,
+        "created_at": "2022-07-16T11:11:25.443Z",
+        "updated_at": "2022-07-16T11:11:25.443Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 13,
+    "fields": {
+        "ledger": 21,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716003",
+        "log_type": "sales",
+        "debit_amount": "15000.00",
+        "credit_amount": "0.00",
+        "log_date": "2022-07-16T12:38:57.811Z",
+        "details": null,
+        "created_at": "2022-07-16T12:38:57.844Z",
+        "updated_at": "2022-07-16T12:38:57.844Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "account.accountlog",
+    "pk": 14,
+    "fields": {
+        "ledger": 5,
+        "sub_ledger": 1,
+        "branch": null,
+        "reference_no": "PV20220716003",
+        "log_type": "sales",
+        "debit_amount": "0.00",
+        "credit_amount": "15000.00",
+        "log_date": "2022-07-16T12:38:57.811Z",
+        "details": null,
+        "created_at": "2022-07-16T12:38:57.852Z",
+        "updated_at": "2022-07-16T12:38:57.853Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.role",
+    "pk": 1,
+    "fields": {
+        "name": "ADMIN",
+        "created_at": "2022-06-16T06:38:42.860Z",
+        "updated_at": "2022-06-16T06:38:42.860Z",
+        "created_by": 1,
+        "updated_by": null,
+        "permissions": []
+    }
+},
+{
+    "model": "authentication.country",
+    "pk": 1,
+    "fields": {
+        "name": "Bangladesh",
+        "capital_name": null,
+        "country_code": null,
+        "country_code2": null,
+        "phone_code": null,
+        "currency_code": null,
+        "continent_name": null,
+        "continent_code": null,
+        "created_at": "2022-06-16T05:58:11.864Z",
+        "updated_at": "2022-06-16T05:58:11.864Z",
+        "created_by": 1,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.city",
+    "pk": 1,
+    "fields": {
+        "name": "Dhaka",
+        "bn_name": null,
+        "lat": null,
+        "lon": null,
+        "url": null,
+        "country": 1,
+        "created_at": "2022-06-16T05:58:34.808Z",
+        "updated_at": "2022-06-16T05:58:34.814Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "authentication.thana",
+    "pk": 1,
+    "fields": {
+        "name": "Demra",
+        "bn_name": null,
+        "url": null,
+        "city": 1,
+        "created_at": "2022-06-16T06:00:00.346Z",
+        "updated_at": "2022-06-16T06:00:00.352Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$fyLbDJJnm02J1A9W9h8Qok$n+5AspqdQ56V0AG1gacAnFP3/ADlMNxHHf1y4Sr3pNI=",
+        "last_login": "2022-08-31T05:53:22.477Z",
+        "first_name": "ams",
+        "last_name": "bd",
+        "username": null,
+        "email": "admin@amsbd.net",
+        "gender": "others",
+        "primary_phone": null,
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": true,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-03-20T09:25:32.847Z",
+        "updated_at": "2022-03-20T09:25:32.852Z",
+        "created_by": null,
+        "updated_by": 1
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$fyLbDJJnm02J1A9W9h8Qok$n+5AspqdQ56V0AG1gacAnFP3/ADlMNxHHf1y4Sr3pNI=",
+        "last_login": "2022-09-07T04:29:03.927Z",
+        "first_name": "Md Rakibul",
+        "last_name": "Islam",
+        "username": "rakib1992",
+        "email": "rakib.islam0000@gmail.com",
+        "gender": "male",
+        "primary_phone": null,
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": "2020-03-01",
+        "is_active": true,
+        "is_admin": true,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-06-14T10:48:53.959Z",
+        "updated_at": "2022-06-15T07:28:50.009Z",
+        "created_by": 1,
+        "updated_by": 2
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$fyLbDJJnm02J1A9W9h8Qok$n+5AspqdQ56V0AG1gacAnFP3/ADlMNxHHf1y4Sr3pNI=",
+        "last_login": null,
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "username": "morsalin1992",
+        "email": "rakib.islam1992@gmail.com",
+        "gender": "male",
+        "primary_phone": "+8801704404414",
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": true,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-06-15T10:17:31.563Z",
+        "updated_at": "2022-06-15T10:17:31.563Z",
+        "created_by": 1,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 4,
+    "fields": {
+        "password": "123456",
+        "last_login": "2022-06-16T07:09:55.608Z",
+        "first_name": "Morsalin",
+        "last_name": "rakib",
+        "username": "morsalin000014",
+        "email": "rakib1992.islam0000@gmail.com",
+        "gender": "male",
+        "primary_phone": "+8801704404410",
+        "secondary_phone": "+8801704404412",
+        "user_type": "member",
+        "date_of_birth": "2022-06-01",
+        "is_active": true,
+        "is_admin": true,
+        "role": 1,
+        "street_address_one": "Ideal Roadaaaaaaa",
+        "street_address_two": "Daka",
+        "thana": 1,
+        "city": 1,
+        "country": 1,
+        "postal_code": null,
+        "image": "users/200x200.jpg",
+        "nid": null,
+        "created_at": "2022-06-16T07:09:55.773Z",
+        "updated_at": "2022-06-16T07:43:24.298Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 6,
+    "fields": {
+        "password": "123456",
+        "last_login": "2022-06-22T10:40:50.231Z",
+        "first_name": "adasdasda",
+        "last_name": "asdddsf",
+        "username": "sdfsdfsdf",
+        "email": "rakib.islam0000aaaaa@gmail.com",
+        "gender": "male",
+        "primary_phone": "+8801704404404",
+        "secondary_phone": null,
+        "user_type": "member",
+        "date_of_birth": null,
+        "is_active": false,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": "sdfsdfsdf",
+        "street_address_two": "sdfsdfsdf",
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "users/green-wall-mockup-with-green-plant-shelf3d-rendering.jpg",
+        "nid": null,
+        "created_at": "2022-06-22T10:40:50.243Z",
+        "updated_at": "2022-06-23T05:40:50.184Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 7,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "username": null,
+        "email": "admin@cashconnectbd.com",
+        "gender": "male",
+        "primary_phone": null,
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-06-28T12:48:39.050Z",
+        "updated_at": "2022-06-28T12:48:39.050Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 8,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "first_name": "babul",
+        "last_name": "kha",
+        "username": null,
+        "email": "babulewu1@gmail.com",
+        "gender": "male",
+        "primary_phone": null,
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-07-07T12:40:47.239Z",
+        "updated_at": "2022-07-07T12:40:47.239Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 9,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "username": null,
+        "email": "rakib.islam00000@gmail.com",
+        "gender": "male",
+        "primary_phone": "01704404410",
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-07-07T13:24:24.590Z",
+        "updated_at": "2022-07-07T13:24:24.590Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 11,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "first_name": "Morsalin",
+        "last_name": "t",
+        "username": null,
+        "email": "babulewu@gmail.com",
+        "gender": "male",
+        "primary_phone": "+8801704404413",
+        "secondary_phone": null,
+        "user_type": null,
+        "date_of_birth": null,
+        "is_active": true,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": null,
+        "street_address_two": null,
+        "thana": null,
+        "city": null,
+        "country": null,
+        "postal_code": null,
+        "image": "",
+        "nid": null,
+        "created_at": "2022-07-07T13:46:11.473Z",
+        "updated_at": "2022-07-07T13:46:11.473Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "authentication.user",
+    "pk": 12,
+    "fields": {
+        "password": "bluebayit7811",
+        "last_login": "2022-07-16T11:07:31.579Z",
+        "first_name": "babul",
+        "last_name": "khan",
+        "username": "babulewu",
+        "email": "babulewu1123@gmail.com",
+        "gender": "male",
+        "primary_phone": "+8801871650207",
+        "secondary_phone": null,
+        "user_type": "member",
+        "date_of_birth": "2022-07-03",
+        "is_active": false,
+        "is_admin": false,
+        "role": null,
+        "street_address_one": "dhaka",
+        "street_address_two": "dhaka",
+        "thana": 1,
+        "city": 1,
+        "country": 1,
+        "postal_code": "3232",
+        "image": "",
+        "nid": null,
+        "created_at": "2022-07-16T11:07:31.599Z",
+        "updated_at": "2022-07-16T11:07:31.613Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "member.member",
+    "pk": 6,
+    "fields": {
+        "father_name": "sadfsdfsdfsd",
+        "mother_name": "asdfsdfdsf",
+        "spouse_name": "sadfsdfsdf",
+        "village": null,
+        "post_office": null,
+        "union": null,
+        "profession": null,
+        "religion": null
+    }
+},
+{
+    "model": "member.member",
+    "pk": 12,
+    "fields": {
+        "father_name": "obaidul hoq",
+        "mother_name": "razia bebum",
+        "spouse_name": "farjana",
+        "village": null,
+        "post_office": null,
+        "union": null,
+        "profession": null,
+        "religion": null
+    }
+},
+{
+    "model": "member.member",
+    "pk": 4,
+    "fields": {
+        "father_name": "Jahangri Alam",
+        "mother_name": "Khaleda Akter",
+        "spouse_name": "Nadia Islam pakhi",
+        "village": null,
+        "post_office": null,
+        "union": null,
+        "profession": null,
+        "religion": null
+    }
+},
+{
+    "model": "member.member",
+    "pk": 3,
+    "fields": {
+        "father_name": null,
+        "mother_name": null,
+        "spouse_name": null,
+        "village": null,
+        "post_office": null,
+        "union": null,
+        "profession": null,
+        "religion": null
+    }
+},
+{
+    "model": "member.executivemember",
+    "pk": 4,
+    "fields": {
+        "member": 4,
+        "designation": "Executive Member",
+        "note": "Good",
+        "created_at": "2022-06-16T11:12:32.722Z",
+        "updated_at": "2022-06-16T11:12:32.722Z",
+        "created_by": 1,
+        "updated_by": null
+    }
+},
+{
+    "model": "member.executivemember",
+    "pk": 6,
+    "fields": {
+        "member": 3,
+        "designation": "Executive",
+        "note": "ceo",
+        "created_at": "2022-06-19T06:59:35.651Z",
+        "updated_at": "2022-06-19T06:59:54.340Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "member.advisermember",
+    "pk": 1,
+    "fields": {
+        "member": 4,
+        "designation": "Adviser  admin",
+        "note": "admn",
+        "created_at": "2022-06-19T09:32:07.826Z",
+        "updated_at": "2022-06-19T09:32:23.957Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "member.generalmember",
+    "pk": 1,
+    "fields": {
+        "member": 3,
+        "designation": "Executive Member",
+        "note": "admin",
+        "created_at": "2022-06-19T10:47:38.156Z",
+        "updated_at": "2022-06-19T10:47:38.162Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "member.generalmember",
+    "pk": 3,
+    "fields": {
+        "member": 4,
+        "designation": "Executive Member",
+        "note": "bgv",
+        "created_at": "2022-06-23T12:49:19.619Z",
+        "updated_at": "2022-06-23T12:49:19.647Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 45,
+    "fields": {
+        "parent": null,
+        "name": "Contact",
+        "position": 7,
+        "created_at": "2022-08-28T09:49:43.815Z",
+        "updated_at": "2022-09-06T05:24:39.009Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 46,
+    "fields": {
+        "parent": null,
+        "name": "Products",
+        "position": 6,
+        "created_at": "2022-08-28T09:50:03.142Z",
+        "updated_at": "2022-09-06T05:24:21.797Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 47,
+    "fields": {
+        "parent": null,
+        "name": "Portfolio",
+        "position": 5,
+        "created_at": "2022-08-28T09:50:20.135Z",
+        "updated_at": "2022-09-06T05:24:03.722Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 48,
+    "fields": {
+        "parent": null,
+        "name": "Services",
+        "position": 3,
+        "created_at": "2022-08-28T09:50:37.273Z",
+        "updated_at": "2022-09-06T05:23:48.161Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 49,
+    "fields": {
+        "parent": null,
+        "name": "About",
+        "position": 2,
+        "created_at": "2022-08-28T09:50:48.661Z",
+        "updated_at": "2022-09-06T05:21:37.066Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 50,
+    "fields": {
+        "parent": null,
+        "name": "Home",
+        "position": 1,
+        "created_at": "2022-08-28T09:50:59.399Z",
+        "updated_at": "2022-09-06T05:21:19.382Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 51,
+    "fields": {
+        "parent": 46,
+        "name": "Rams",
+        "position": 8,
+        "created_at": "2022-08-28T10:01:05.354Z",
+        "updated_at": "2022-09-06T05:25:29.438Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 52,
+    "fields": {
+        "parent": 46,
+        "name": "E-Commerce",
+        "position": 9,
+        "created_at": "2022-08-28T10:02:09.755Z",
+        "updated_at": "2022-09-06T05:25:38.649Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 53,
+    "fields": {
+        "parent": 46,
+        "name": "OTMS",
+        "position": 13,
+        "created_at": "2022-08-28T10:04:07.709Z",
+        "updated_at": "2022-09-06T05:26:35.654Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 54,
+    "fields": {
+        "parent": 46,
+        "name": "POS",
+        "position": 12,
+        "created_at": "2022-08-28T10:04:44.756Z",
+        "updated_at": "2022-09-06T05:26:28.648Z",
+        "created_by": null,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 55,
+    "fields": {
+        "parent": 46,
+        "name": "Industrial ERP",
+        "position": 11,
+        "created_at": "2022-08-28T10:05:30.533Z",
+        "updated_at": "2022-09-06T05:26:20.676Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 56,
+    "fields": {
+        "parent": 46,
+        "name": "DMS",
+        "position": 10,
+        "created_at": "2022-08-28T10:06:12.654Z",
+        "updated_at": "2022-09-06T05:26:03.474Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenu",
+    "pk": 57,
+    "fields": {
+        "parent": null,
+        "name": "Gallery",
+        "position": 4,
+        "created_at": "2022-08-30T11:40:55.344Z",
+        "updated_at": "2022-09-06T05:20:40.971Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 127,
+    "fields": {
+        "cms_menu": 49,
+        "name": "About",
+        "value": "<h2><span style=\"color: #041b5c;\">BLUEBAY </span>IT <span style=\"color: #e67e23;\">LIMITED</span></h2>\n<p><strong><span class=\"tpabout-xs-title mb-40\">Digital Solution For your Business</span></strong></p>\n<p style=\"text-align: justify;\"><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+        "created_at": "2022-08-29T06:34:20.094Z",
+        "updated_at": "2022-08-29T08:36:50.945Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 128,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Staticfied Customers",
+        "value": "<div class=\"col-xl-3 col-lg-6 col-md-6 col-sm-6\">\n<div class=\"tpfact__item tpfact__item-df tpfact-border-right text-center mb-30 \n                     false\"><span class=\"fact-title\">Staticfied Customers</span></div>\n</div>",
+        "created_at": "2022-08-29T07:34:26.724Z",
+        "updated_at": "2022-08-29T09:55:00.301Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 129,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Complete Project",
+        "value": "<div class=\"col-xl-3 col-lg-6 col-md-6 col-sm-6\">\n<div class=\"tpfact__item tpfact__item-df tpfact-border-right text-center mb-30 \n                     false\"><span class=\"fact-title\">Complete Project</span></div>\n</div>",
+        "created_at": "2022-08-29T09:55:25.410Z",
+        "updated_at": "2022-08-29T09:55:25.414Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 130,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Win Global Award",
+        "value": "<div class=\"col-xl-3 col-lg-6 col-md-6 col-sm-6\">\n<div class=\"tpfact__item tpfact__item-df tpfact-border-right text-center mb-30 \n                     false\"><span class=\"fact-title\">Win Global Award</span></div>\n</div>",
+        "created_at": "2022-08-29T09:55:44.018Z",
+        "updated_at": "2022-08-29T09:55:44.021Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 131,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Cup of Coffee",
+        "value": "<section class=\"tpfact-area\">\n<div class=\"container\">\n<div class=\"row g-0\">\n<div class=\"col-xl-3 col-lg-6 col-md-6 col-sm-6\">\n<div class=\"tpfact__item tpfact__item-df tpfact-border-right text-center mb-30 \n                     border-end-0\"><span class=\"fact-title\">Cup of Coffee</span></div>\n</div>\n</div>\n</div>\n</section>",
+        "created_at": "2022-08-29T09:56:00.896Z",
+        "updated_at": "2022-08-29T09:56:00.899Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 132,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Md Ariful Islam",
+        "value": "<div style=\"text-align: center;\">\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">&ldquo; I appreciate your amazing services and professional staff for all</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">your hard work and creative thinking! It was fun, and I hope&nbsp;</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">to work with you again soon &ldquo;</span></h3>\n</div>",
+        "created_at": "2022-08-29T10:25:33.142Z",
+        "updated_at": "2022-08-30T04:22:27.195Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 133,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Md Babor Islam",
+        "value": "<div style=\"text-align: center;\">\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">&ldquo; I appreciate your amazing services and professional staff for all</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">your hard work and creative thinking! It was fun, and I hope&nbsp;</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">to work with you again soon &ldquo;</span></h3>\n</div>",
+        "created_at": "2022-08-29T10:26:17.472Z",
+        "updated_at": "2022-08-29T10:55:57.210Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 134,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Md Meheady Hasan",
+        "value": "<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">&ldquo; I appreciate your amazing services and professional staff for all</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">your hard work and creative thinking! It was fun, and I hope&nbsp;</span></h3>\n<h3 style=\"text-align: center;\"><span style=\"color: #ced4d9;\">to work with you again soon &ldquo;</span></h3>",
+        "created_at": "2022-08-29T10:26:35.912Z",
+        "updated_at": "2022-08-29T10:36:22.721Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 135,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Tesimonial BG",
+        "value": "<p>Tesimonial BG</p>",
+        "created_at": "2022-08-29T10:40:31.701Z",
+        "updated_at": "2022-08-29T10:40:31.704Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 136,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Shap 1",
+        "value": "<p>Shap 1</p>",
+        "created_at": "2022-08-29T10:58:03.501Z",
+        "updated_at": "2022-08-29T10:58:03.504Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 137,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Shap 2",
+        "value": "<p>sfsf</p>",
+        "created_at": "2022-08-29T10:58:18.102Z",
+        "updated_at": "2022-08-29T10:58:18.105Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 138,
+    "fields": {
+        "cms_menu": 49,
+        "name": "Shap 3",
+        "value": "<p>sfsf</p>",
+        "created_at": "2022-08-29T10:58:31.339Z",
+        "updated_at": "2022-08-29T10:58:31.342Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 139,
+    "fields": {
+        "cms_menu": 48,
+        "name": "Software Development",
+        "value": "<p style=\"text-align: justify;\">Software development is to develop a desired application. It includes several processes like designing, programming, testing and so on. Also it may include re-engineering, prototyping or any other re-works in order to get final manifestation of the desired application.</p>",
+        "created_at": "2022-08-30T05:17:52.197Z",
+        "updated_at": "2022-08-30T06:03:37.132Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 140,
+    "fields": {
+        "cms_menu": 48,
+        "name": "Web Application",
+        "value": "<p style=\"text-align: justify;\">Web Development is developing a website for the Internet or an Intranet. All the works in doing so are included in the web development process. Web development is ranged from developing the simplest static single page to the most complex web based internet applications..</p>",
+        "created_at": "2022-08-30T05:18:33.709Z",
+        "updated_at": "2022-08-30T06:07:40.310Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 141,
+    "fields": {
+        "cms_menu": 48,
+        "name": "Domain & Hosting",
+        "value": "<p style=\"text-align: justify;\">DNS hosting and Domain name system Registration of a domain name establishes a set of name server records in the DNS servers of the parent domain, A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide..</p>",
+        "created_at": "2022-08-30T05:19:00.423Z",
+        "updated_at": "2022-08-30T06:09:02.161Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 142,
+    "fields": {
+        "cms_menu": 48,
+        "name": "Digital Marketing",
+        "value": "<p style=\"text-align: justify;\">Digital Marketing is the key tool that can help you best to improve visibility of your website and makes you easily accessible to your potentials customers. Services We Provide Under Digital Marketing like Search Engine Optimization (SEO), Social Media Marketing (SMM), Email/SMS Marketing.</p>",
+        "created_at": "2022-08-30T05:19:45.181Z",
+        "updated_at": "2022-08-30T06:10:02.760Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 143,
+    "fields": {
+        "cms_menu": 48,
+        "name": "Dedicated Server Hosting",
+        "value": "<p style=\"text-align: justify;\">We provide 100% Dell Branded PowerEdge C1100 Servers. The Dell PowerEdge C1100 Supports two Intel Xeon 5400/5500/5600 Series Processors. It has Built-In IPKVM Modules with IPMI Version 2.0, which enables full Remote Power Control, and Remote Console Access.</p>",
+        "created_at": "2022-08-30T05:20:08.795Z",
+        "updated_at": "2022-08-31T07:12:40.709Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 144,
+    "fields": {
+        "cms_menu": 48,
+        "name": "IT Training",
+        "value": "<p>Bluebay IT Limited is the best online earning training center run by supportive teachers.Our primary aim is to guide students to get jobs in the online market to make indeendent as a freelancer. We offer high-quality training service and capable of making money online as a freelancer.</p>",
+        "created_at": "2022-08-30T05:20:36.006Z",
+        "updated_at": "2022-08-30T06:11:18.101Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 145,
+    "fields": {
+        "cms_menu": 47,
+        "name": "Web Design",
+        "value": "<p>fsfsfsdfsdf</p>",
+        "created_at": "2022-08-30T07:22:08.979Z",
+        "updated_at": "2022-08-30T11:18:17.704Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 146,
+    "fields": {
+        "cms_menu": 47,
+        "name": "Web Development",
+        "value": "<p>sff</p>",
+        "created_at": "2022-08-30T07:34:12.305Z",
+        "updated_at": "2022-08-30T11:18:08.036Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 147,
+    "fields": {
+        "cms_menu": 47,
+        "name": "Graphic Design",
+        "value": "<p>ssfsdf</p>",
+        "created_at": "2022-08-30T07:35:55.190Z",
+        "updated_at": "2022-08-30T11:18:00.104Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 148,
+    "fields": {
+        "cms_menu": 45,
+        "name": "Address",
+        "value": "<p style=\"text-align: left;\"><a href=\"http://bluebayit.com/\">House No: 1862, Road No: 06, Sriti Dhara, Japani Bazar,</a><br /><a href=\"http://bluebayit.com/\">Sani Akhra, Jatra Bari,</a><br /><a href=\"http://bluebayit.com/\">Dhaka-1236, Bangladesh.</a></p>",
+        "created_at": "2022-08-30T10:11:53.934Z",
+        "updated_at": "2022-08-30T11:17:51.769Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 149,
+    "fields": {
+        "cms_menu": 45,
+        "name": "Email",
+        "value": "<p><a href=\"mailto:sales@bluebayit.com\">sales@bluebayit.com</a></p>\n<p>&nbsp;</p>",
+        "created_at": "2022-08-30T10:23:00.634Z",
+        "updated_at": "2022-08-30T11:17:43.570Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 150,
+    "fields": {
+        "cms_menu": 45,
+        "name": "Phone",
+        "value": "<div class=\"col-lg-3 col-md-6 footer-contact\">\n<p><a href=\"http://bluebayit.com/\">+8801861650206</a></p>\n<p><a href=\"http://bluebayit.com/\">+8801816255499</a></p>\n<div class=\"social-links\">&nbsp;&nbsp;&nbsp;&nbsp;</div>\n</div>",
+        "created_at": "2022-08-30T10:36:47.426Z",
+        "updated_at": "2022-08-30T11:17:34.293Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 151,
+    "fields": {
+        "cms_menu": 57,
+        "name": "Office Tour",
+        "value": "<p>sfsf</p>",
+        "created_at": "2022-08-31T04:46:00.165Z",
+        "updated_at": "2022-08-31T04:49:52.277Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 154,
+    "fields": {
+        "cms_menu": 57,
+        "name": "Office Meeting",
+        "value": "<p>ssf</p>",
+        "created_at": "2022-08-31T06:10:15.416Z",
+        "updated_at": "2022-08-31T06:10:15.418Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 155,
+    "fields": {
+        "cms_menu": 57,
+        "name": "Office salar",
+        "value": "<p>sfsf</p>",
+        "created_at": "2022-08-31T06:10:50.268Z",
+        "updated_at": "2022-08-31T06:10:50.270Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 156,
+    "fields": {
+        "cms_menu": 57,
+        "name": "office colleagues",
+        "value": "<p>asdasd</p>",
+        "created_at": "2022-08-31T06:12:10.676Z",
+        "updated_at": "2022-08-31T06:12:10.679Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 157,
+    "fields": {
+        "cms_menu": 50,
+        "name": "About",
+        "value": "<p style=\"text-align: center;\"><span style=\"font-size: 14pt;\">About us</span></p>\n<h2><span style=\"color: #041b5c;\">BLUEBAY </span>IT <span style=\"color: #e67e23;\">LIMITED</span> provide full-service digital capabilities</h2>\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod&nbsp; tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&nbsp; veniam, quis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod&nbsp; tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&nbsp; veniam, quis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod&nbsp; tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&nbsp; veniam, quis nostrud exercitation ullamco</div>",
+        "created_at": "2022-08-31T06:32:17.716Z",
+        "updated_at": "2022-08-31T06:40:56.868Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 158,
+    "fields": {
+        "cms_menu": 50,
+        "name": "WEB DESIGN",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/1\">The Home of the Future could bebes</a></h4>",
+        "created_at": "2022-08-31T09:37:21.418Z",
+        "updated_at": "2022-08-31T09:37:21.421Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 159,
+    "fields": {
+        "cms_menu": 50,
+        "name": "WEB DEVELOPMENT",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/2\">A big ticket gone to be an interesting</a></h4>",
+        "created_at": "2022-08-31T09:38:01.794Z",
+        "updated_at": "2022-08-31T09:38:01.797Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 160,
+    "fields": {
+        "cms_menu": 50,
+        "name": "UI UX DESIGN",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/3\">What is the Difference between</a></h4>",
+        "created_at": "2022-08-31T09:38:33.277Z",
+        "updated_at": "2022-08-31T09:38:33.279Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 161,
+    "fields": {
+        "cms_menu": 50,
+        "name": "GRAPHIC DESIGN",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/4\">A big ticket gone to be an interesting</a></h4>",
+        "created_at": "2022-08-31T09:39:19.841Z",
+        "updated_at": "2022-08-31T09:39:19.844Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 162,
+    "fields": {
+        "cms_menu": 50,
+        "name": "APP DESIGN",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/5\">Why uou love nerox that much</a></h4>",
+        "created_at": "2022-08-31T09:39:58.028Z",
+        "updated_at": "2022-08-31T09:39:58.030Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 163,
+    "fields": {
+        "cms_menu": 50,
+        "name": "WORDPRESS DESIGN",
+        "value": "<h4 class=\"tpbs-project__title\"><a href=\"../../../../portfolio-details/6\">The world is more beautiful you think</a></h4>",
+        "created_at": "2022-08-31T09:41:40.402Z",
+        "updated_at": "2022-08-31T09:41:40.405Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontent",
+    "pk": 164,
+    "fields": {
+        "cms_menu": 50,
+        "name": "Brand",
+        "value": "<p>sdf</p>",
+        "created_at": "2022-09-07T04:09:07.513Z",
+        "updated_at": "2022-09-07T04:09:07.525Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 239,
+    "fields": {
+        "cms_menu": 49,
+        "head": "About",
+        "image": "cms/ContentImage/tpabout-img_Y1fkKkX.jpg",
+        "created_at": "2022-08-29T06:56:03.747Z",
+        "updated_at": "2022-08-29T07:32:35.501Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 250,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Staticfied Customers",
+        "image": "cms/ContentImage/fact-icon-1_YyoXh41.png",
+        "created_at": "2022-08-29T09:56:11.402Z",
+        "updated_at": "2022-08-29T09:56:11.402Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 251,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Complete Project",
+        "image": "cms/ContentImage/fact-icon-2_aQIy5OU.png",
+        "created_at": "2022-08-29T09:56:23.971Z",
+        "updated_at": "2022-08-29T09:56:23.971Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 252,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Win Global Award",
+        "image": "cms/ContentImage/fact-icon-3_U2rTj5a.png",
+        "created_at": "2022-08-29T09:56:37.289Z",
+        "updated_at": "2022-08-29T09:56:37.289Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 253,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Cup of Coffee",
+        "image": "cms/ContentImage/fact-icon-4_HErTZIB.png",
+        "created_at": "2022-08-29T09:56:48.967Z",
+        "updated_at": "2022-08-29T09:56:48.967Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 254,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Tesimonial BG",
+        "image": "cms/ContentImage/testimonial-bg.jpg",
+        "created_at": "2022-08-29T10:40:51.787Z",
+        "updated_at": "2022-08-29T10:40:51.787Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 255,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Shap 1",
+        "image": "cms/ContentImage/shape-1.png",
+        "created_at": "2022-08-29T10:59:17.656Z",
+        "updated_at": "2022-08-29T10:59:17.656Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 256,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Shap 2",
+        "image": "cms/ContentImage/shape-2.png",
+        "created_at": "2022-08-29T10:59:34.717Z",
+        "updated_at": "2022-08-29T10:59:34.717Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 257,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Shap 3",
+        "image": "cms/ContentImage/shape-3.png",
+        "created_at": "2022-08-29T10:59:44.494Z",
+        "updated_at": "2022-08-29T10:59:44.494Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 258,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Md Meheady Hasan",
+        "image": "cms/ContentImage/meheady.jpeg",
+        "created_at": "2022-08-30T04:21:34.060Z",
+        "updated_at": "2022-08-30T04:21:34.060Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 259,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Md Babor Islam",
+        "image": "cms/ContentImage/babor.jpeg",
+        "created_at": "2022-08-30T04:21:46.569Z",
+        "updated_at": "2022-08-30T04:21:46.569Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 260,
+    "fields": {
+        "cms_menu": 49,
+        "head": "Md Ariful Islam",
+        "image": "cms/ContentImage/Arif.jpeg",
+        "created_at": "2022-08-30T04:22:35.357Z",
+        "updated_at": "2022-08-30T04:22:35.357Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 261,
+    "fields": {
+        "cms_menu": 48,
+        "head": "Software Development",
+        "image": "cms/ContentImage/software.png",
+        "created_at": "2022-08-30T06:17:50.958Z",
+        "updated_at": "2022-08-30T06:17:50.958Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 262,
+    "fields": {
+        "cms_menu": 48,
+        "head": "Web Application",
+        "image": "cms/ContentImage/coding.png",
+        "created_at": "2022-08-30T06:18:04.439Z",
+        "updated_at": "2022-08-30T06:18:04.439Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 263,
+    "fields": {
+        "cms_menu": 48,
+        "head": "Domain & Hosting",
+        "image": "cms/ContentImage/domain.png",
+        "created_at": "2022-08-30T06:18:15.077Z",
+        "updated_at": "2022-08-30T06:18:15.077Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 264,
+    "fields": {
+        "cms_menu": 48,
+        "head": "Digital Marketing",
+        "image": "cms/ContentImage/bullhorn.png",
+        "created_at": "2022-08-30T06:18:25.310Z",
+        "updated_at": "2022-08-30T06:18:25.310Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 265,
+    "fields": {
+        "cms_menu": 48,
+        "head": "Dedicated Server Hosting",
+        "image": "cms/ContentImage/hosting.png",
+        "created_at": "2022-08-30T06:18:39.318Z",
+        "updated_at": "2022-08-30T06:18:39.318Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 266,
+    "fields": {
+        "cms_menu": 48,
+        "head": "IT Training",
+        "image": "cms/ContentImage/analysis.png",
+        "created_at": "2022-08-30T06:18:47.580Z",
+        "updated_at": "2022-08-30T06:18:47.580Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 267,
+    "fields": {
+        "cms_menu": 47,
+        "head": "Web Design",
+        "image": "cms/ContentImage/domain_riSqD6N.png",
+        "created_at": "2022-08-30T07:22:23.638Z",
+        "updated_at": "2022-08-30T07:22:23.638Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 268,
+    "fields": {
+        "cms_menu": 47,
+        "head": "Web Development",
+        "image": "cms/ContentImage/bullhorn_kuDRU5v.png",
+        "created_at": "2022-08-30T07:34:24.654Z",
+        "updated_at": "2022-08-30T07:34:24.654Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 269,
+    "fields": {
+        "cms_menu": 47,
+        "head": "Graphic Design",
+        "image": "cms/ContentImage/coding_1jSrcT3.png",
+        "created_at": "2022-08-30T07:36:14.593Z",
+        "updated_at": "2022-08-30T07:36:14.593Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 274,
+    "fields": {
+        "cms_menu": 57,
+        "head": "Office Tour",
+        "image": "cms/ContentImage/creative-item-5_MLg4piI.jpg",
+        "created_at": "2022-08-31T05:40:38.881Z",
+        "updated_at": "2022-08-31T05:40:38.881Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 279,
+    "fields": {
+        "cms_menu": 57,
+        "head": "Office Meeting",
+        "image": "cms/ContentImage/creative-item-big-1_dyXsivi.jpg",
+        "created_at": "2022-08-31T06:10:22.140Z",
+        "updated_at": "2022-08-31T06:10:22.140Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 280,
+    "fields": {
+        "cms_menu": 57,
+        "head": "Office salar",
+        "image": "cms/ContentImage/creative-item-big-2_7vzdjHh.jpg",
+        "created_at": "2022-08-31T06:11:00.188Z",
+        "updated_at": "2022-08-31T06:11:00.188Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 281,
+    "fields": {
+        "cms_menu": 57,
+        "head": "office colleagues",
+        "image": "cms/ContentImage/creative-item-7_t2Oj0i8.jpg",
+        "created_at": "2022-08-31T06:12:20.211Z",
+        "updated_at": "2022-08-31T06:12:20.211Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 284,
+    "fields": {
+        "cms_menu": 50,
+        "head": "About",
+        "image": "cms/ContentImage/businessman-using-digital-tablet_xI9fb8Z.png",
+        "created_at": "2022-08-31T06:52:33.162Z",
+        "updated_at": "2022-08-31T06:52:33.162Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 291,
+    "fields": {
+        "cms_menu": 50,
+        "head": "WORDPRESS DESIGN",
+        "image": "cms/ContentImage/project-1_yHPNUGB.jpg",
+        "created_at": "2022-08-31T10:57:22.069Z",
+        "updated_at": "2022-08-31T10:57:22.069Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 294,
+    "fields": {
+        "cms_menu": 50,
+        "head": "APP DESIGN",
+        "image": "cms/ContentImage/project-2_8432WMz.jpg",
+        "created_at": "2022-08-31T10:58:31.197Z",
+        "updated_at": "2022-08-31T10:58:31.197Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 295,
+    "fields": {
+        "cms_menu": 50,
+        "head": "GRAPHIC DESIGN",
+        "image": "cms/ContentImage/project-3_0FGnNNx.jpg",
+        "created_at": "2022-08-31T10:58:49.520Z",
+        "updated_at": "2022-08-31T10:58:49.520Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 296,
+    "fields": {
+        "cms_menu": 50,
+        "head": "UI UX DESIGN",
+        "image": "cms/ContentImage/project-4_6sVPqtt.jpg",
+        "created_at": "2022-08-31T10:59:03.011Z",
+        "updated_at": "2022-08-31T10:59:03.011Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 297,
+    "fields": {
+        "cms_menu": 50,
+        "head": "WEB DEVELOPMENT",
+        "image": "cms/ContentImage/project-5_P7tPhau.jpg",
+        "created_at": "2022-08-31T10:59:13.797Z",
+        "updated_at": "2022-08-31T10:59:13.797Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 298,
+    "fields": {
+        "cms_menu": 50,
+        "head": "WEB DESIGN",
+        "image": "cms/ContentImage/project-6_OWFXWpF.jpg",
+        "created_at": "2022-08-31T10:59:31.387Z",
+        "updated_at": "2022-08-31T10:59:31.387Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 299,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-1.png",
+        "created_at": "2022-09-07T04:14:09.420Z",
+        "updated_at": "2022-09-07T04:14:09.420Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 300,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-2.png",
+        "created_at": "2022-09-07T04:14:09.430Z",
+        "updated_at": "2022-09-07T04:14:09.430Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 301,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-3.png",
+        "created_at": "2022-09-07T04:14:09.432Z",
+        "updated_at": "2022-09-07T04:14:09.432Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 302,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-4.png",
+        "created_at": "2022-09-07T04:14:09.435Z",
+        "updated_at": "2022-09-07T04:14:09.435Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 303,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-5.png",
+        "created_at": "2022-09-07T04:14:09.438Z",
+        "updated_at": "2022-09-07T04:14:09.438Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 304,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-1_kc16pAR.png",
+        "created_at": "2022-09-07T04:14:29.100Z",
+        "updated_at": "2022-09-07T04:14:29.100Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 305,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-2_PRTRKYC.png",
+        "created_at": "2022-09-07T04:14:29.105Z",
+        "updated_at": "2022-09-07T04:14:29.105Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 306,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-3_lBLLQsv.png",
+        "created_at": "2022-09-07T04:14:29.108Z",
+        "updated_at": "2022-09-07T04:14:29.108Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 307,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-4_cIKnXLg.png",
+        "created_at": "2022-09-07T04:14:29.111Z",
+        "updated_at": "2022-09-07T04:14:29.111Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "cms.cmsmenucontentimage",
+    "pk": 308,
+    "fields": {
+        "cms_menu": 50,
+        "head": "Brand",
+        "image": "cms/ContentImage/brand-5_9IzNCXv.png",
+        "created_at": "2022-09-07T04:14:29.114Z",
+        "updated_at": "2022-09-07T04:14:29.114Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 3,
+    "fields": {
+        "name": "cause3",
+        "goal_amount": "200000.00",
+        "raised_amount": "0.00",
+        "image": "",
+        "created_at": "2022-03-24T06:02:35.375Z",
+        "updated_at": "2022-03-24T06:02:35.380Z",
+        "created_by": 1,
+        "updated_by": 1
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 4,
+    "fields": {
+        "name": "cause4",
+        "goal_amount": "200000.00",
+        "raised_amount": "0.00",
+        "image": "",
+        "created_at": "2022-03-24T06:19:28.990Z",
+        "updated_at": "2022-03-24T06:19:28.990Z",
+        "created_by": 1,
+        "updated_by": 1
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 5,
+    "fields": {
+        "name": "cause5",
+        "goal_amount": "20000.00",
+        "raised_amount": "30000.00",
+        "image": "",
+        "created_at": "2022-06-29T07:28:08.752Z",
+        "updated_at": "2022-06-29T07:28:08.763Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 10,
+    "fields": {
+        "name": "cause9",
+        "goal_amount": "15000.00",
+        "raised_amount": "0.00",
+        "image": "",
+        "created_at": "2022-07-16T06:34:43.589Z",
+        "updated_at": "2022-07-16T06:34:43.598Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 11,
+    "fields": {
+        "name": "child food operation",
+        "goal_amount": "250000.00",
+        "raised_amount": "0.00",
+        "image": "",
+        "created_at": "2022-07-16T11:11:25.407Z",
+        "updated_at": "2022-07-16T12:39:58.088Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.cause",
+    "pk": 12,
+    "fields": {
+        "name": "child food operation",
+        "goal_amount": "15000.00",
+        "raised_amount": "0.00",
+        "image": "",
+        "created_at": "2022-07-16T12:38:57.812Z",
+        "updated_at": "2022-07-16T12:39:47.201Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.causecontent",
+    "pk": 1,
+    "fields": {
+        "cause": 3,
+        "name": "child_cause_1",
+        "value": "i have no value....",
+        "created_at": "2022-06-29T09:58:24.812Z",
+        "updated_at": "2022-06-29T09:58:51.042Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.causecontent",
+    "pk": 3,
+    "fields": {
+        "cause": 11,
+        "name": "title",
+        "value": "Food Collections",
+        "created_at": "2022-07-16T11:12:57.087Z",
+        "updated_at": "2022-07-16T11:12:57.095Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.causecontent",
+    "pk": 4,
+    "fields": {
+        "cause": 11,
+        "name": "details1",
+        "value": "dsfsdf sdfs sd sdf",
+        "created_at": "2022-07-16T11:13:51.896Z",
+        "updated_at": "2022-07-16T11:13:51.900Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.causecontent",
+    "pk": 5,
+    "fields": {
+        "cause": 11,
+        "name": "details2",
+        "value": "sfd sdff sdf sdf d dsf",
+        "created_at": "2022-07-16T11:15:54.593Z",
+        "updated_at": "2022-07-16T11:15:54.598Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.causecontentimage",
+    "pk": 7,
+    "fields": {
+        "cause": 3,
+        "head": "child_cause_1",
+        "image": "donation/CauseContentImage/download_5_QaWIiHm.jpg",
+        "created_at": "2022-07-16T06:15:34.030Z",
+        "updated_at": "2022-07-16T06:15:34.030Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.causecontentimage",
+    "pk": 8,
+    "fields": {
+        "cause": 3,
+        "head": "child_cause_1",
+        "image": "donation/CauseContentImage/download.jpg",
+        "created_at": "2022-07-16T06:15:34.035Z",
+        "updated_at": "2022-07-16T06:15:34.035Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.causecontentimage",
+    "pk": 9,
+    "fields": {
+        "cause": 11,
+        "head": "details2",
+        "image": "donation/CauseContentImage/download_noUXasi.png",
+        "created_at": "2022-07-16T12:27:13.809Z",
+        "updated_at": "2022-07-16T12:27:13.809Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.causecontentimage",
+    "pk": 10,
+    "fields": {
+        "cause": 11,
+        "head": "details2",
+        "image": "donation/CauseContentImage/download_VOkExbY.jpg",
+        "created_at": "2022-07-16T12:27:13.817Z",
+        "updated_at": "2022-07-16T12:27:13.818Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 3,
+    "fields": {
+        "cause": null,
+        "amount": "20000.00",
+        "first_name": "Md Rakibul",
+        "last_name": "Islam",
+        "email": "rakib.islam00000@gmail.com",
+        "phone_number": null,
+        "address": "",
+        "message": "",
+        "created_at": "2022-06-28T10:46:37.700Z",
+        "updated_at": "2022-06-28T10:46:37.700Z",
+        "created_by": null,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 5,
+    "fields": {
+        "cause": null,
+        "amount": "1500.00",
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "email": "admin@cashconnectbd.com",
+        "phone_number": null,
+        "address": null,
+        "message": null,
+        "created_at": "2022-06-28T12:22:51.691Z",
+        "updated_at": "2022-06-28T12:22:51.699Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 6,
+    "fields": {
+        "cause": null,
+        "amount": "1500.00",
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "email": "admin@cashconnectbd.com",
+        "phone_number": null,
+        "address": null,
+        "message": null,
+        "created_at": "2022-06-28T12:23:46.670Z",
+        "updated_at": "2022-06-28T12:23:46.672Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 7,
+    "fields": {
+        "cause": null,
+        "amount": "1500.00",
+        "first_name": "Morsalin",
+        "last_name": "Rakib",
+        "email": "admin@cashconnectbd.com",
+        "phone_number": null,
+        "address": null,
+        "message": null,
+        "created_at": "2022-06-28T12:24:44.362Z",
+        "updated_at": "2022-06-28T12:24:44.365Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 8,
+    "fields": {
+        "cause": null,
+        "amount": "1700.00",
+        "first_name": "Morsalin",
+        "last_name": "Hasib",
+        "email": "admin@cashconnectbd.com",
+        "phone_number": null,
+        "address": null,
+        "message": null,
+        "created_at": "2022-06-28T12:25:09.155Z",
+        "updated_at": "2022-06-28T12:53:08.121Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 14,
+    "fields": {
+        "cause": null,
+        "amount": "5000.00",
+        "first_name": "babul",
+        "last_name": "kha",
+        "email": "babulewu1@gmail.com",
+        "phone_number": null,
+        "address": null,
+        "message": null,
+        "created_at": "2022-07-07T12:40:47.271Z",
+        "updated_at": "2022-07-07T12:40:47.276Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 15,
+    "fields": {
+        "cause": 4,
+        "amount": "5000.00",
+        "first_name": "Morsalin",
+        "last_name": "t",
+        "email": "babulewu@gmail.com",
+        "phone_number": "+8801704404410",
+        "address": "retret",
+        "message": "qqqqq",
+        "created_at": "2022-07-07T13:45:33.890Z",
+        "updated_at": "2022-07-07T13:45:33.892Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.donation",
+    "pk": 16,
+    "fields": {
+        "cause": 4,
+        "amount": "5000.00",
+        "first_name": "Morsalin",
+        "last_name": "t",
+        "email": "babulewu@gmail.com",
+        "phone_number": "+8801704404413",
+        "address": "retret",
+        "message": "qqqqq",
+        "created_at": "2022-07-07T13:46:11.468Z",
+        "updated_at": "2022-07-07T13:46:11.471Z",
+        "created_by": 2,
+        "updated_by": null
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 6,
+    "fields": {
+        "member": 6,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-06T05:02:23.239Z",
+        "note": "noooteee",
+        "created_at": "2022-07-06T05:02:23.244Z",
+        "updated_at": "2022-07-06T05:02:23.250Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 7,
+    "fields": {
+        "member": 3,
+        "amount": "7800.00",
+        "subscription_date": "2022-07-06T05:02:52.714Z",
+        "note": "plmj",
+        "created_at": "2022-07-06T05:02:52.720Z",
+        "updated_at": "2022-07-06T05:02:52.726Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 8,
+    "fields": {
+        "member": 4,
+        "amount": "3698.00",
+        "subscription_date": "2022-07-06T05:03:16.579Z",
+        "note": "rtffdd",
+        "created_at": "2022-07-06T05:03:16.585Z",
+        "updated_at": "2022-07-06T05:03:16.591Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 9,
+    "fields": {
+        "member": 6,
+        "amount": "90000.00",
+        "subscription_date": "2022-07-06T05:20:54.016Z",
+        "note": "no note",
+        "created_at": "2022-07-06T05:20:54.022Z",
+        "updated_at": "2022-07-06T05:20:54.028Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 10,
+    "fields": {
+        "member": 12,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-17T04:20:50.580Z",
+        "note": "note",
+        "created_at": "2022-07-17T04:20:50.586Z",
+        "updated_at": "2022-07-17T04:20:50.597Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 11,
+    "fields": {
+        "member": 6,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-17T04:21:39.017Z",
+        "note": "noooteee",
+        "created_at": "2022-07-17T04:21:39.023Z",
+        "updated_at": "2022-07-17T04:21:39.029Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 12,
+    "fields": {
+        "member": 12,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-17T04:29:09.160Z",
+        "note": "noooteee",
+        "created_at": "2022-07-17T04:29:09.165Z",
+        "updated_at": "2022-07-17T04:29:09.170Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 13,
+    "fields": {
+        "member": 12,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-17T04:32:31.739Z",
+        "note": "noooteee",
+        "created_at": "2022-07-17T04:32:31.745Z",
+        "updated_at": "2022-07-17T04:32:31.751Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "donation.monthlysubscription",
+    "pk": 14,
+    "fields": {
+        "member": 6,
+        "amount": "5000.00",
+        "subscription_date": "2022-07-17T05:42:46.341Z",
+        "note": "note",
+        "created_at": "2022-07-17T05:42:46.347Z",
+        "updated_at": "2022-07-17T05:42:46.354Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "site_settings.generalsetting",
+    "pk": 1,
+    "fields": {
+        "title": "Bluebay IT Admin",
+        "site_name": "Bluebay IT Ltd",
+        "site_address": "http://bluebayit.com/",
+        "email": "sales@bluebayit.com",
+        "phone": "+8801861650206",
+        "favicon": "favicons/favicon.ico",
+        "logo": "company_logos/bluebayLogo.png",
+        "footer_logo": "company_logos/bluebaylogoFooter.png",
+        "address": "House No: 1862, Road No: 06, Sriti Dhara, Japani Bazar, Sani Akhra, Jatra Bari, Dhaka-1236, Bangladesh.",
+        "google_url": null,
+        "facebook_url": "",
+        "twitter_url": "",
+        "instagram_url": "",
+        "created_at": "2022-08-24T07:05:16.634Z",
+        "updated_at": "2022-08-31T11:46:58.944Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "site_settings.homepageslider",
+    "pk": 13,
+    "fields": {
+        "title": "<div>\r\n<p><span style=\"color: #ecf0f1;\"><strong><span style=\"font-size: 78.75pt;\">Business </span></strong><span style=\"font-size: 78.75pt;\">Growth</span></span></p>\r\n</div>",
+        "subtitle": "Free Consultation",
+        "link": "WE PROVIDE BEST SERVICE WITH EXCLUSIVE FEATURES",
+        "serial_number": 1,
+        "image": "siteSettings/homePageSlider/slider1.png",
+        "details": null,
+        "created_at": "2022-09-06T10:05:51.662Z",
+        "updated_at": "2022-09-06T11:01:33.087Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "site_settings.homepageslider",
+    "pk": 14,
+    "fields": {
+        "title": "<div>\r\n<p><span style=\"font-size: 78.75pt; color: #ecf0f1;\"><strong>Business </strong>Health</span></p>\r\n</div>",
+        "subtitle": "Free Consultation",
+        "link": "WE PROVIDE BEST SERVICE WITH EXCLUSIVE SUPPORT",
+        "serial_number": 2,
+        "image": "siteSettings/homePageSlider/slider2.png",
+        "details": null,
+        "created_at": "2022-09-06T10:07:23.300Z",
+        "updated_at": "2022-09-06T10:59:50.886Z",
+        "created_by": 2,
+        "updated_by": 2
+    }
+},
+{
+    "model": "support.loggeduser",
+    "pk": 3,
+    "fields": {
+        "user": 1
+    }
+},
+{
+    "model": "support.loggeduser",
+    "pk": 4,
+    "fields": {
+        "user": 2
+    }
+},
+{
+    "model": "sequences.sequence",
+    "pk": "RV20220628",
+    "fields": {
+        "last": 9
+    }
+},
+{
+    "model": "sequences.sequence",
+    "pk": "RV20220707",
+    "fields": {
+        "last": 2
+    }
+},
+{
+    "model": "sequences.sequence",
+    "pk": "SA20220629",
+    "fields": {
+        "last": 5
+    }
+},
+{
+    "model": "sequences.sequence",
+    "pk": "SA20220716",
+    "fields": {
+        "last": 3
+    }
+}
+]

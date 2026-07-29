@@ -1,0 +1,31 @@
+.qodo
+.vscode
+.idea
+.ruff_cache
+.vscode
+media
+*/migrations/
+!*/migrations/__init__.py
+staticfiles/
+db/
+
+docs
+env
+renv
+venv
+logs/
+*.log
+
+_pycache_/
+*.pyc
+.git
+.env
+.venv
+.$HRMS*
+
+# Temp files
+# /start_project/settings.py
+# /start_project/urls.py
+
+.previous-git
+previous-media
