@@ -1,5 +1,4 @@
-from distutils.command.upload import upload
-import imp
+
 from django.db import models
 from django.conf import settings
 
