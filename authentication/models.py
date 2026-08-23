@@ -16,7 +16,7 @@ from rest_framework.serializers import BaseSerializer
 
 
 
-
+# This classes define DB Tables 
 class Permission(models.Model):
 	name = models.CharField(max_length=255)
 
