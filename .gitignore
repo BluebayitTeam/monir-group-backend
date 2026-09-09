@@ -4,7 +4,7 @@
 .ruff_cache
 .vscode
 media
-*/migrations/
+*/migrations/*
 !*/migrations/__init__.py
 staticfiles/
 db/
